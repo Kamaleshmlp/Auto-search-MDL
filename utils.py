@@ -614,33 +614,22 @@ async def verify_user(bot, userid, token):
     VERIFIED[user.id] = str(today)
     
 async def check_verification(bot, userid):
-    user = await bot.get_users(int(userid))
+    user = await bot.get_users(userid)
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id, user.first_name)
         await bot.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(user.id, user.mention))
     tz = pytz.timezone('Asia/Kolkata')
     today = date.today()
-    now = datetime.now(tz)
-    curr_time = now.strftime("%H:%M:%S")
-    hour1, minute1, second1 = curr_time.split(":")
-    curr_time = time(int(hour1), int(minute1), int(second1))
-    status = await get_verify_status(user.id)
-    date_var = status["date"]
-    time_var = status["time"]
-    years, month, day = date_var.split('-')
-    comp_date = date(int(years), int(month), int(day))
-    hour, minute, second = time_var.split(":")
-    comp_time = time(int(hour), int(minute), int(second))
-    if comp_date<today:
-        return False
-    else:
-        if comp_date == today:
-            if comp_time<curr_time:
-                return False
-            else:
-                return True
+    if user.id in VERIFIED.keys():
+        EXP = VERIFIED[user.id]
+        years, month, day = EXP.split('-')
+        comp = date(int(years), int(month), int(day))
+        if comp==today:
+            return False
         else:
             return True
+    else:
+        return False
     
     
 async def send_all(bot, userid, files, ident, chat_id, user_name, query):
