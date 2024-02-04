@@ -624,7 +624,7 @@ async def check_verification(bot, userid):
         EXP = VERIFIED[user.id]
         years, month, day = EXP.split('-')
         comp = date(int(years), int(month), int(day))
-        if comp<today:
+        if comp=today:
             return False
         else:
             return True
