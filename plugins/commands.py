@@ -25,7 +25,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('✪ Subscribe YT Channel', url="https://youtube.com/@DudeCine"),
+                    InlineKeyboardButton('✪ Movie Channel', url="https://t.me/Team_MDL"),
                     InlineKeyboardButton('⌬ Movie Group', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('✇ Join Updates Channel ✇', url=CHNL_LNK)
@@ -96,7 +96,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('✪ Subscribe YT Channel', url="https://youtube.com/@DudeCine"),
+                    InlineKeyboardButton('✪ Movie Channel', url="https://t.me/Team_MDL"),
                     InlineKeyboardButton('⌬ Movie Group', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('✇ Join Updates Channel ✇', url=CHNL_LNK)
