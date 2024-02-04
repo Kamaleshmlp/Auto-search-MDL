@@ -203,7 +203,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
 ▫️<a href=https://t.me/Team_MDL> ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ​ </a>
 ▫️<a href=https://t.me/+KAjYvbNDdKhlYmE1> ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs​ </a>
-▫️<a href=https://youtube.com/@DudeCine> YouTube ᴄʜᴀɴɴᴇʟ​ </a>
+▫️<a href=https://youtube.com/@MoviesDudeZ> YouTube ᴄʜᴀɴɴᴇʟ​ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
 
     IMDB_TEMPLATE_TXT = """
