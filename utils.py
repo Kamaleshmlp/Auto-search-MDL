@@ -619,12 +619,12 @@ async def check_verification(bot, userid):
         await db.add_user(user.id, user.first_name)
         await bot.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(user.id, user.mention))
     tz = pytz.timezone('Asia/Kolkata')
-    today = date.today()
+    today = time.today()
     if user.id in VERIFIED.keys():
         EXP = VERIFIED[user.id]
-        years, month, day = EXP.split('-')
-        comp = date(int(years), int(month), int(day))
-        if comp:=today:
+        hours,mintues,seconds = EXP.split('-')
+        comp = time(int(hours), int(minutes), int(seconds))
+        if comp<today:
             return False
         else:
             return True
