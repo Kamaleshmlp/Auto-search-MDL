@@ -7,7 +7,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
 <b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Team_MDL_Admin_Bot>☢ Owner Of Team_MDL ☢</a></b>
-<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/Team_MDL>Bot Updates 👾</a></b>
+<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/TMV_TG>Bot Updates 👾</a></b>
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.62 [Sᴛᴀʙʟᴇ]</b>"""
 
     SOURCE_TXT = """
@@ -39,7 +39,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/Team_MDL)</code>
+<code>[Button Text](buttonurl:https://t.me/TMV_TG)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -147,19 +147,17 @@ Nᴀᴍᴇ - {}"""
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
 
     SHORTLINK_INFO = """
-<b>─────「 🥀 WELCOME TO TEAM_MDL ✨ 」─────
+<b>─────「 🥀 WELCOME TO TMV TG ✨ 」─────
 
 ➥ Join Our Movies Channel 🔰
 
-›› <a href='https://t.me/Team_MDL'>[Main Channel]</a>
+›› <a href='https://t.me/TMV_TG'>[Main Channel]</a>
 
-›› <a href='https://t.me/+qnMrDRdW-cQ5ODU1'>Movies [File Channel]</a>
+›› <a href='https://t.me/+vKzsBFW_YQU3MWRl'>HD Print Movies</a>
 
-›› <a href='https://t.me/+IEuqAeD0ioMzZTE1'>Hollywood Dubbed Movies</a>
+›› <a href='https://t.me/+yKlurvf3aA5kZDg1'>Theatre Print Movies</a>
 
-›› <a href='https://t.me/+ZjNVcrSU_zs3MjA9'>Tamil Web-Series</a>
-
-›› <a href='https://t.me/+KAjYvbNDdKhlYmE1'>Movie Request Group</a>
+›› <a href='https://t.me/TMV_OPEN'>Movie Request Group</a>
 
 ➥ MY Best Friend :<a href='tg://settings'>This Person</a>.</b>
 """
@@ -198,12 +196,12 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : [{file_name}](https://t.me/Team_MDL)
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : [{file_name}](https://t.me/TMV_TG)
     
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/Team_MDL> ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ​ </a>
-▫️<a href=https://t.me/+KAjYvbNDdKhlYmE1> ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs​ </a>
-▫️<a href=https://youtube.com/@MoviesDudeZ> YouTube ᴄʜᴀɴɴᴇʟ​ </a>
+▫️<a href=https://t.me/TMV_TG> ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ​ </a>
+▫️<a href=https://t.me/TMV_OPEN> ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs​ </a>
+▫️<a href=https://youtube.com/> YouTube ᴄʜᴀɴɴᴇʟ​ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
 
     IMDB_TEMPLATE_TXT = """
