@@ -19,11 +19,11 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7044603204:AAFKjHl-ckDE9KkkiCbeg0qv2riWzJo
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
+USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/30dd0afade9204d9867bd.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/30dd0afade9204d9867bd.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/30dd0afade9204d9867bd.jpg")
+PICS = (environ.get('PICS', 'https://l.arzfun.com/Vm34t')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://l.arzfun.com/Vm34t")
+MELCOW_VID = environ.get("MELCOW_VID", "https://l.arzfun.com/Vm34t")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/30dd0afade9204d9867bd.jpg")
 
 # Admins, Channels & Users
