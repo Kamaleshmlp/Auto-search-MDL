@@ -6,7 +6,7 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ M�
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
-<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Team_MDL_Admin_Bot>☢ Owner Of Team_MDL ☢</a></b>
+<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Kamalesh_mlp>🤩 Owner Of TMV TG 🤩</a></b>
 <b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/TMV_TG>Bot Updates 👾</a></b>
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.62 [Sᴛᴀʙʟᴇ]</b>"""
 
@@ -196,7 +196,11 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b></b>""" 
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name} 
+
+📦 File Size : {size}
+
+✨𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 @TMV_TG</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
