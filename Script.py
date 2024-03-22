@@ -196,13 +196,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : [{file_name}](https://t.me/TMV_TG)
-    
-╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/TMV_TG> ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ​ </a>
-▫️<a href=https://t.me/TMV_OPEN> ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs​ </a>
-▫️<a href=https://youtube.com/> YouTube ᴄʜᴀɴɴᴇʟ​ </a>
-╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
+    CAPTION = """<b></b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
