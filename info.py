@@ -48,7 +48,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "auto-search")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Modijiurl.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '384a1b6a599b42aec68078df1a53c8143b01d74d')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
