@@ -54,7 +54,7 @@ async def start(client, message):
                     InlineKeyboardButton('🥀 Jᴏɪɴ ᴏᴠᴇʀ Cʜᴀɴɴᴇʟ ❤️', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAENnUFlrTIf0FT-TgqEaSAhVh_UQKWFiQACFgoAAoBu0VSY_9b1MN-k_R4E") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAJexmZtD3bI5oYvCHzNGyzHxQABIgyiJwACmREAAr1vaFfMdMSd1JhqZjUE") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -153,7 +153,7 @@ async def start(client, message):
                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ', url=f'https://t.me/tmv_admin_bot'),
                           InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="https://t.me/tmv_open")
+                          InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="https://t.me/+Hy12-MrRR2Y4ZGJl")
                          ]
                         ]
                     )
@@ -329,7 +329,7 @@ async def start(client, message):
                       InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/tmv_admin_bot'),
                       InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="https://t.me/tmv_open")
+                      InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="https://t.me/+Hy12-MrRR2Y4ZGJl")
                      ]
                     ]
                 )
@@ -391,7 +391,7 @@ async def start(client, message):
                       InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                       InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="https://t.me/+KAjYvbNDdKhlYmE1")
+                      InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="https://t.me/+Hy12-MrRR2Y4ZGJl")
                      ]
                     ]
                 )
@@ -451,7 +451,7 @@ async def start(client, message):
               InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
               InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
            ],[
-              InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="https://t.me/+KAjYvbNDdKhlYmE1")
+              InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="https://t.me/+Hy12-MrRR2Y4ZGJl")
              ]
             ]
         )
