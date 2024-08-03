@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '25599491'))
 API_HASH = environ.get('API_HASH', 'c8e3c0561cf148a6504f27b111fc3698')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7044603204:AAFKjHl-ckDE9KkkiCbeg0qv2riWzJoaAow")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7044603204:AAH7Lh1-ivAwYk25yVFxHbUfpbZIBoFlsYc")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -28,11 +28,11 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/30dd0afade9204d986
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5983189506').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '1001912307994').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '1002098998115').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
-auth_channel = environ.get('AUTH_CHANNEL','-1002053727982')
+auth_channel = environ.get('AUTH_CHANNEL','-1002098998115')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -43,14 +43,14 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Kamalesh:KamaleshMLP7@cluster7.nn2x4jt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster7")
-DATABASE_NAME = environ.get('DATABASE_NAME', "auto-search")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tnmhub1:UglH6qo6o0aKAppW@kamaleshmlp.774dhuu.mongodb.net/?retryWrites=true&w=majority&appName=KamaleshMlp")
+DATABASE_NAME = environ.get('DATABASE_NAME', "KamaleshMlp")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Modijiurl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '384a1b6a599b42aec68078df1a53c8143b01d74d')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "6")
